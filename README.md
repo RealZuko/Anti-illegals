@@ -16,8 +16,8 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________
 #### Usage
 After installation of plugin
-- Give the responding rank permission helpop.receive
-- Try to place bedrock, you'll get banned :)
+- Give the responding rank permission zuko.illegals
+- If you try to drop/place bedock without the zuko.illegals permission, you'll get banned
 ____________________________________________________________________________________________________________________
 
 
