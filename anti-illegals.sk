@@ -12,7 +12,7 @@ on place bedrock:
 every 2 seconds:
     loop all players:
         if loop-player has bedrock:
-            if loop-player doesn't have permission "c": 
+            if loop-player doesn't have permission "zuko.illegals": 
                 execute console command "helpop AntiCheat: %loop-player% Has a blocked item! (BEDROCK)"
 
 on drop bedrock:
