@@ -6,20 +6,35 @@ on place barrier:
         execute console command "ban %player% zuko.illegals: Tried to place invalid block (BARRIER)"
         cancel event
 
+
+
+
 on place bedrock:
     if player doesn't have permission "zuko.illegals":
         execute console command "ban %player% zuko.illegals: Tried to place invalid block (BEDROCK)"
         cancel event
 
+
+
+
+
+#Drop checks
 on drop bedrock:
     if player doesn't have permission "zuko.illegals":
         execute console command "ban %player% zuko.illegals: Tried to drop invalid block (BEDROCK)"
         cancel event
 
+
+
+
 on drop barrier:
     if player doesn't have permission "zuko.illegals":
         execute console command "ban %player% zuko.illegals: Tried to drop invalid block (BARRIER)"
         cancel event
+
+
+
+
 # Inventory checks
 every 2 seconds:
     loop all players:
