@@ -16,8 +16,8 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________
 #### Usage
 After installation of plugin
-- Give the responding rank permission zuko.illegals
-- If you try to drop/place bedock without the zuko.illegals permission, you'll get banned
+- Give the responding rank permission zuko.illegals to block the bans and zuko.illegals-reports to receive the reports
+- Try to put barrier (or bedrock) in inventory, or drop it/place it without the coresponding permission.
 ____________________________________________________________________________________________________________________
 
 
