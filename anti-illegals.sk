@@ -1,4 +1,6 @@
 
+
+# Place checks
 on place barrier:
     if player doesn't have permission "zuko.illegals":
         execute console command "ban %player% zuko.illegals: Tried to place invalid block (BARRIER)"
@@ -8,13 +10,7 @@ on place bedrock:
     if player doesn't have permission "zuko.illegals":
         execute console command "ban %player% zuko.illegals: Tried to place invalid block (BEDROCK)"
         cancel event
-
-every 2 seconds:
-    loop all players:
-        if loop-player has bedrock:
-            if loop-player doesn't have permission "c": 
-                execute console command "helpop AntiCheat: %loop-player% Has a blocked item! (BEDROCK)"
-
+# Drop checks
 on drop bedrock:
     if player doesn't have permission "zuko.illegals":
         execute console command "ban %player% zuko.illegals: Tried to drop invalid block (BEDROCK)"
@@ -24,6 +20,12 @@ on drop barrier:
     if player doesn't have permission "zuko.illegals":
         execute console command "ban %player% zuko.illegals: Tried to drop invalid block (BARRIER)"
         cancel event
+# Inventory checks
+every 2 seconds:
+    loop all players:
+        if loop-player has bedrock:
+            if loop-player doesn't have permission "zuko.illegals": 
+                execute console command "helpop AntiCheat: %loop-player% Has a blocked item! (BEDROCK)"
 
 every 2 seconds:
     loop all players:
