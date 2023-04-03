@@ -1,9 +1,8 @@
 
-
 # Place checks
 on place barrier:
     if player doesn't have permission "zuko.illegals":
-        execute console command "ban %player% zuko.illegals: Tried to place invalid block (BARRIER)"
+        execute console command "ban %player% Zuko.Illegals: Tried to place banned block (BARRIER)"
         cancel event
 
 
@@ -11,7 +10,8 @@ on place barrier:
 
 on place bedrock:
     if player doesn't have permission "zuko.illegals":
-        execute console command "ban %player% zuko.illegals: Tried to place invalid block (BEDROCK)"
+
+        execute console command "ban %player% zuko.illegals: Tried to place banned block (BEDROCK)"
         cancel event
 
 
@@ -21,7 +21,7 @@ on place bedrock:
 #Drop checks
 on drop bedrock:
     if player doesn't have permission "zuko.illegals":
-        execute console command "ban %player% zuko.illegals: Tried to drop invalid block (BEDROCK)"
+        execute console command "ban %player% zuko.illegals: Tried to drop banned block (BEDROCK)"
         cancel event
 
 
@@ -29,7 +29,7 @@ on drop bedrock:
 
 on drop barrier:
     if player doesn't have permission "zuko.illegals":
-        execute console command "ban %player% zuko.illegals: Tried to drop invalid block (BARRIER)"
+        execute console command "ban %player% zuko.illegals: Tried to drop banned block (BARRIER)"
         cancel event
 
 
